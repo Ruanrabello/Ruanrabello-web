@@ -74,7 +74,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-8 flex flex-wrap justify-center lg:justify-start gap-3 text-sm text-muted-foreground"
+            className="mt-8 flex flex-wrap justify-center lg:justify-start gap-3 text-sm text-muted-foreground font-bold"
           >
             <ContactChip icon={<MapPin size={14} />} text="Taquara - Rio de Janeiro, RJ" />
             <ContactChip icon={<Phone size={14} />} text="(21) 98281-2903" />
@@ -99,7 +99,7 @@ const HeroSection = () => {
           >
             <a
               href="#experiencia"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-bold text-sm hover:opacity-90 transition-opacity"
             >
               Ver experiência
               <span className="animate-bounce">↓</span>
