@@ -9,7 +9,7 @@ const HeroSection = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img src={bgPhoto} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-background/60" />
       </div>
       {/* Background grid effect */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
@@ -116,7 +116,7 @@ const ContactChip = ({ icon, text, href }: { icon: React.ReactNode; text: string
   return (
     <Tag
       {...(href ? { href, target: "_blank", rel: "noopener noreferrer" } : {})}
-      className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-secondary border border-border hover:border-primary/30 transition-colors"
+      className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-secondary border border-border hover:border-primary/30 transition-colors font-bold"
     >
       <span className="text-primary">{icon}</span>
       {text}
