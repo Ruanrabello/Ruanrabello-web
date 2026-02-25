@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Linkedin } from "lucide-react";
+import { MapPin, Phone, Mail, Linkedin, Github } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -46,6 +46,11 @@ const HeroSection = () => {
             icon={<Linkedin size={14} />}
             text="LinkedIn"
             href="https://linkedin.com/in/ruan-rabello-dasilva-9032b5274"
+          />
+          <ContactChip
+            icon={<Github size={14} />}
+            text="Portfólios"
+            href="https://github.com/Ruanrabello/Projetos"
           />
         </motion.div>
 
