@@ -65,7 +65,7 @@ const HeroSection = () => {
               <br />
               <span className="text-gradient">RABELLO</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-muted-foreground mt-6 max-w-xl font-light">
+            <p className="text-base sm:text-lg text-muted-foreground mt-6 max-w-xl font-light">
               Estudante de Engenharia da Computação · 6º Período
             </p>
           </motion.div>
