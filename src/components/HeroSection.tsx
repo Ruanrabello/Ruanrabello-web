@@ -46,7 +46,7 @@ const HeroSection = () => {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="absolute -bottom-3 left-1/2 -translate-x-1/2 px-4 py-1.5 rounded-full bg-card border border-border text-xs font-mono text-primary whitespace-nowrap"
           >
-            💻 Eng. Computação
+            📅 6º Período
           </motion.div>
         </motion.div>
 
@@ -66,7 +66,7 @@ const HeroSection = () => {
               <span className="text-gradient">RABELLO</span>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground mt-6 max-w-xl font-light">
-              Estudante de Engenharia da Computação
+              Estudante de Engenharia da Computação · 6º Período
             </p>
           </motion.div>
 
