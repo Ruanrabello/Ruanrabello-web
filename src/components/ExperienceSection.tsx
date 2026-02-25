@@ -31,7 +31,7 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experiencia" className="py-24 px-6">
+    <section id="experiencia" className="py-12 px-6">
       <div className="max-w-4xl mx-auto">
         <SectionTitle icon={<Briefcase size={20} />} label="Experiência" />
 
