@@ -1,10 +1,16 @@
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Linkedin, Github } from "lucide-react";
 import ruanPhoto from "@/assets/ruan.jfif";
+import bgPhoto from "@/assets/foto-bg.jfif";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6">
+    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden px-6">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img src={bgPhoto} alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/85" />
+      </div>
       {/* Background grid effect */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: 'linear-gradient(hsl(175 70% 50%) 1px, transparent 1px), linear-gradient(90deg, hsl(175 70% 50%) 1px, transparent 1px)',
