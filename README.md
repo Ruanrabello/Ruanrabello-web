@@ -46,7 +46,7 @@ Passos:
 
 Acesse o site aqui:
 
-https://lovable.dev/projects/f0fc6174-fbc6-48c1-a6a3-f9edb6454969
+[https://lovable.dev/projects/f0fc6174-fbc6-48c1-a6a3-f9edb6454969](https://ruanportifolio.lovable.app)
 
 ## 👨‍💻 Autor
 
